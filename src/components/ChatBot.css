@@ -1,0 +1,65 @@
+.message-content {  
+    line-height: 1.5;  
+  }  
+  
+  .message-content h1 {  
+    font-size: 1.5rem;  
+    font-weight: bold;  
+    margin: 1rem 0;  
+    color: #1a365d;  
+  }  
+  
+  .message-content h2 {  
+    font-size: 1.25rem;  
+    font-weight: bold;  
+    margin: 0.75rem 0;  
+    color: #2c5282;  
+  }  
+  
+  .message-content h3 {  
+    font-size: 1.1rem;  
+    font-weight: bold;  
+    margin: 0.5rem 0;  
+    color: #2b6cb0;  
+  }  
+  
+  .message-content ul {  
+    margin: 0.5rem 0;  
+    padding-left: 1.5rem;  
+  }  
+  
+  .message-content li {  
+    margin: 0.25rem 0;  
+    position: relative;  
+  }  
+  
+  .message-content li:before {  
+    content: "•";  
+    position: absolute;  
+    left: -1rem;  
+    color: #4299e1;  
+  }  
+  
+  .message-content a {  
+    color: #2563eb;  
+    text-decoration: underline;  
+    transition: all 0.2s;  
+  }  
+  
+  .message-content a:hover {  
+    color: #1d4ed8;  
+  }  
+  
+  .message-content strong {  
+    font-weight: 600;  
+    color: #1e40af;  
+  }  
+  
+  .message-content em {  
+    font-style: italic;  
+    color: #4b5563;  
+  }  
+  
+  .message-content br {  
+    margin: 0.5rem 0;  
+  }
