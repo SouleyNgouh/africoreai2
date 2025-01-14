@@ -16,7 +16,7 @@ export default function Home() {
         <title>AfriCoreAI - Intelligence Artificielle pour l'Afrique</title>  
         <meta   
           name="description"   
-          content="Solutions d'Intelligence Artificielle innovantes adaptées au marché africain"   
+          content=" Solutions d'Intelligence Artificielle innovantes adaptées au marché africain"   
         />  
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />  
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />  
