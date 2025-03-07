@@ -50,7 +50,7 @@ const initialMessage: Message = {
 // Fonction pour obtenir la réponse de Gemini  
 async function getGeminiResponse(userMessage: string, chatHistory: string = "") {  
   try {  
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });  
+    const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });  
     const prompt = `${INITIAL_CONTEXT}\n\nHistorique de la conversation:\n${chatHistory}\n\nUtilisateur: ${userMessage}\nAssistant:`;  
     const result = await model.generateContent(prompt);  
     const response = await result.response;  
